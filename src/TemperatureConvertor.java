@@ -8,7 +8,7 @@ public class TemperatureConvertor {
     }
 
     static double farenheitToCelsius(double temp) {
-        return (temp-32)*(5/9);
+        return (temp-32)*(0.5555555555555556);
     }
 
     static double celsiusToKelvin(double temp) {
